@@ -7,7 +7,7 @@ import { HousingLocation } from './housinglocation';
 })
 export class HousingService {
 
-  url = 'http://localhost:3000/locations';
+  url = 'https://vl-task-api.onrender.com/api/locations';
 
   async getAllHousingLocations(): Promise<HousingLocation[]> {
     const data = await fetch(this.url);
