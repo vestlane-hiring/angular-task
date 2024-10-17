@@ -15,6 +15,8 @@ When choosing theme, please select deeppurple-amber
 
 From the root folder, run:
 
+`json-server --watch db.json`
+
 `ng serve`
 
 Notice: the server goes idle after 15’ inactivity and new data is lost (enough for demoing)
